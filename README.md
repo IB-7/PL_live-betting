@@ -26,12 +26,12 @@ Please review the full analysis in the Jupyter Notebook or the presentation
 
 ├── images <- Includes images utilized in presentation
 
-├── Capstone Presentation.pdf <- PDF version of project presentation
+├── presentation.pdf <- PDF version of project presentation
 
 ├── README.md <- The top-level README for reviewers of this project, you are reading it right now
 
 ├── MVP.ipynb <- Minimum viable project jupyter notebook
 
-├── MVP.pdf <- PDF version of minimum viable project jupyter notebook 
+├── notebook.pdf <- PDF version of minimum viable project jupyter notebook 
 
 └── pl_results.xlsm <- Dataset
