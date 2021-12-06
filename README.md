@@ -27,14 +27,16 @@ Please review the full analysis in the Jupyter Notebook or the presentation
 
 ## Repository structure
 
+├── data <- dataset used in this project (includes Moneyline betting favorite column)
+
 ├── images <- Includes images utilized in presentation
 
-├── presentation.pdf <- PDF version of project presentation
-
-├── README.md <- The top-level README for reviewers of this project, you are reading it right now
+├── notebooks <- notebooks used for this project. Includes notebook used for exploratory data analysis (EDA)
 
 ├── MVP.ipynb <- Minimum viable project jupyter notebook
 
-├── notebook.pdf <- PDF version of minimum viable project jupyter notebook 
+├── README.md <- The top-level README for reviewers of this project, you are reading it right now
 
-└── pl_results.xlsm <- Dataset
+├── notebook.pdf <- PDF version of minimum viable project jupyter notebook
+
+├── presentation.pdf <- PDF version of project presentation
