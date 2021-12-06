@@ -22,6 +22,9 @@ Out of all the models that I tried on the dataset, the model that achieved the h
 ## For more information
 Please review the full analysis in the Jupyter Notebook or the presentation
 
+## References
+- Sports-betting website used to identify the 'moneyline' favorite of each match --> [OddsPortal](https://www.oddsportal.com/soccer/england/premier-league/results/)
+
 ## Repository structure
 
 ├── images <- Includes images utilized in presentation
