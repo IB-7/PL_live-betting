@@ -23,7 +23,7 @@ For methods, I first cleaned the data by getting rid of columns and also droppin
 Out of all the models that I tried on the dataset, the model that achieved the highest accuracy was a logistic regression model. A logistic regression model was able to acheive an accuracy of 66% on the test data. This model allowed me to identify the feature of a Premier League match that is most determinant in the full-time match result. The feature that was most determinant was half-time result, which is why I recommend this model would be best applied in live-betting contexts. Using this analysis, bettors can wager their money based on data, not on their own intution and biases.
 
 ## For more information
-Please review the full analysis in the [Jupyter Notebooks](https://github.com/IB-7/PL_live-betting/tree/main/notebooks) or the presentation.
+Please review the full analysis in the [Jupyter Notebooks](https://github.com/IB-7/PL_live-betting/tree/main/notebooks) or the [presentation](https://github.com/IB-7/PL_live-betting/blob/main/final_presentation.pdf).
 
 ## References
 - Sports-betting website used to identify the 'moneyline' favorite of each match --> [OddsPortal](https://www.oddsportal.com/soccer/england/premier-league/results/)
@@ -36,10 +36,10 @@ Please review the full analysis in the [Jupyter Notebooks](https://github.com/IB
 
 ├── notebooks <- notebooks used for this project. Includes notebook used for exploratory data analysis (EDA) and modeling (MVP)
 
-├── requirements.txt <- libraries and versions that was used for this analysis
-
 ├── README.md <- The top-level README for reviewers of this project, you are reading it right now
 
 ├── final_notebook.pdf <- PDF version of final jupyter notebook
 
 ├── final_presentation.pdf <- PDF version of project presentation
+
+├── requirements.txt <- libraries and versions that was used for this analysis
