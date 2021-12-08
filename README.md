@@ -13,6 +13,9 @@ Bettors are looking for a model that can be used to help them make more informed
 ## Data Understanding
 The dataset used was from Kaggle. I used the match data from the start of the 2003/2004 season up to October of the 2021/2022 season. Most of the columns in the dataset are in-game statistics provided at the end of each match. In addition, the original dataset did not provide the betting favorite based on the moneyline. I used a sports-betting website to identify the moneyline favorite in each game and inserted this information into the dataset.
 
+## Getting the Data
+If you would like to use the dataset I used, you can access and download it in the [data](https://github.com/IB-7/PL_live-betting/tree/main/data) folder located in this repository. The dataset in that repository folder includes the 'moneyline' betting favorite that I identified myself. If you would like to use the original dataset from Kaggle, follow this [link](https://www.kaggle.com/irkaal/english-premier-league-results) and click 'Download'.
+
 ## Methods
 For methods, I first cleaned the data by getting rid of columns and also dropping the irrelevant/redundant columns. I also performed scaling on the data before modeling so that all of the columns were on the same range/scale. Next, I used various classifier algorithms to be fitted and predict on the training and testing data, respectively. For a sports-betting context, the metric that I chose to focus on was accuracy. I used accuracy because for this problem, a false negative or a false positive have the same effect which is that the bet would be lost because it was incorrect. 
 
@@ -20,7 +23,7 @@ For methods, I first cleaned the data by getting rid of columns and also droppin
 Out of all the models that I tried on the dataset, the model that achieved the highest accuracy was a logistic regression model. A logistic regression model was able to acheive an accuracy of 66% on the test data. This model allowed me to identify the feature of a Premier League match that is most determinant in the full-time match result. The feature that was most determinant was half-time result, which is why I recommend this model would be best applied in live-betting contexts. Using this analysis, bettors can wager their money based on data, not on their own intution and biases.
 
 ## For more information
-Please review the full analysis in the Jupyter Notebook or the presentation
+Please review the full analysis in the [Jupyter Notebooks](https://github.com/IB-7/PL_live-betting/tree/main/notebooks) or the presentation.
 
 ## References
 - Sports-betting website used to identify the 'moneyline' favorite of each match --> [OddsPortal](https://www.oddsportal.com/soccer/england/premier-league/results/)
@@ -31,12 +34,12 @@ Please review the full analysis in the Jupyter Notebook or the presentation
 
 ├── images <- Includes images utilized in presentation
 
-├── notebooks <- notebooks used for this project. Includes notebook used for exploratory data analysis (EDA)
+├── notebooks <- notebooks used for this project. Includes notebook used for exploratory data analysis (EDA) and modeling (MVP)
 
-├── MVP.ipynb <- Minimum viable project jupyter notebook
+├── requirements.txt <- libraries and versions that was used for this analysis
 
 ├── README.md <- The top-level README for reviewers of this project, you are reading it right now
 
-├── notebook.pdf <- PDF version of minimum viable project jupyter notebook
+├── final_notebook.pdf <- PDF version of final jupyter notebook
 
-├── presentation.pdf <- PDF version of project presentation
+├── final_presentation.pdf <- PDF version of project presentation
